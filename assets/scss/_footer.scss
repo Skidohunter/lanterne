@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F1D4D6;
+    height: 100px;
+    padding-top: 20px;
+    
+    
+    a{
+        color: black;
+        font-size: 15px;
+        font-family: 'hashiba';
+    }
+    p{
+        font-family: 'hashiba';
+    }
+    h3{
+        font-size: 20px;
+        font-family: 'hashiba';
+    }
+    button{
+        background-color: #F1D4D6;
+        border: none;
+    }
+}

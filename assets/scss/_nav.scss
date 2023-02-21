@@ -1,0 +1,27 @@
+nav{
+    background-color: #F1D4D6;
+    height: 100px;
+
+   
+    ul{
+    display: flex;
+   
+    }
+    li{
+        margin-right:1em;
+        margin-left: 1em;
+        margin-top: 2em;
+
+        &:nth-child(6){
+            margin-left:auto;
+        }
+    }
+    a{
+        color: black;
+        font-size: 30px;
+        font-family: 'hashiba';
+    }
+    a:hover{
+        color: red;
+    }
+}
