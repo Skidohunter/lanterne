@@ -5,8 +5,12 @@
       ),  url("../image/Three-beautiful-Chinese-girls-retro-style-colorful-lanterns_1920x1440.jpg");
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
     height: auto;
     padding: 50px;
+    h2{
+        padding-bottom: 20px;
+    }
     
 }
 
@@ -16,8 +20,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding-top: 10px;
+    gap: 30px;
+    padding-top: 40px;
    
 
     article{
@@ -33,4 +37,11 @@
     h3{
         font-size: 20px
     }
+}
+.lanterneArticle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }

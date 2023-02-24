@@ -54,7 +54,7 @@ if (isset($_POST['name']) && (isset($_POST['password'])) && (isset($_POST['passw
 
 <body>
     <?php include_once('nav.php'); ?>
-    <main>
+    <main class='mainSpe'>
         <!--ERROR MESSAGES-->
         <?php
         if (isset($_GET['userexist'])) {

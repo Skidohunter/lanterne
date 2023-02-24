@@ -52,7 +52,7 @@ if (isset($_POST['name']) && (isset($_POST['password']))) {
         echo '<p class="success">Vous pouvez maintenant vous connecter </p>';
     }
     ?>
-    <main>
+    <main class='mainSpe'>
         <form action="connexion.php" method="POST">
             <label for="name">Votre nom:</label>
             <input type="text" name="name" id="name">

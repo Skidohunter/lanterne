@@ -1,7 +1,6 @@
 <nav>
     <ul>
         <li><a href="index.php">Accueil</a></li>
-        <li><a href="blog.php">Blog</a></li>
         <li><a href="chinoises.php">Lanterne Chinoises</a></li>
         <li><a href="japonaises.php">Lanterne Japonaise</a></li>
         <li><a href="papier.php">Lanterne Papier</a></li>
